@@ -19,7 +19,7 @@
         data() {
             return {
                 msg: '',
-                totalMsg: "<span style='color: #3f7f5f'>/**<br/>* 2008-05-29,<br/>* 2018-06-14<br/>* auth: wenfeng<br/>*/</span><br/>" +
+                totalMsg: "<span style='color: #3f7f5f'>/**<br/>* 2008-05-29<br/>* 2018-06-14<br/>* auth: wenfeng<br/>*/</span><br/>" +
                 "<span style='color: #333'>#2013-06-05</span><br/><span>#2018-06-14</span>",
                 typingTimer: "",
                 underlineFlag: true,
