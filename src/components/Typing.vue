@@ -19,7 +19,7 @@
         data() {
             return {
                 msg: '',
-                totalMsg: "<span style='color: #3f7f5f'>/**<br/>* 2008-05-29<br/>* 2018-06-14<br/>* auth: wenfeng<br/>*/</span><br/>" +
+                totalMsg: "<span style='color: #3f7f5f'>/**<br/>* 2008-05-29<br/>* 2018-06-14<br/>* auth: wenfeng<br/>**/</span><br/>" +
                 "<span style='color: #333'>#2013-06-05</span><br/><span>#2018-06-14</span>",
                 typingTimer: "",
                 underlineFlag: true,
@@ -63,20 +63,21 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-    .container {
-        width: 200px;
-        height: 200px;
-        .typing {
-            display: inline;
-            text-align: left;
-            line-height: 20px;
-            font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
-        }
-    }
-    .fade-enter-active, .fade-leave-active {
-        transition: opacity .1s;
-    }
-    .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-        opacity: 0;
-    }
+    @import "../scss/typing.scss";
+    /*.container {*/
+        /*width: 200px;*/
+        /*height: 200px;*/
+        /*.typing {*/
+            /*display: inline;*/
+            /*text-align: left;*/
+            /*line-height: 20px;*/
+            /*font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";*/
+        /*}*/
+    /*}*/
+    /*.fade-enter-active, .fade-leave-active {*/
+        /*transition: opacity .1s;*/
+    /*}*/
+    /*.fade-enter, .fade-leave-to !* .fade-leave-active below version 2.1.8 *! {*/
+        /*opacity: 0;*/
+    /*}*/
 </style>
